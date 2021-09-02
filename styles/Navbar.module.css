@@ -1,29 +1,31 @@
 .navbar{
-    background-color: #333;
+    background-image: linear-gradient(90deg,#2f0140 ,#491D59 );
+    
     width:100vw;
-    height: 3.5rem;
+    height: 5rem;
     display:flex;
     align-items: center;
     padding: 0 5rem;
-    justify-content: space-between;
+    justify-content: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
 }
-
+.navbar span{
+    color:#f8f8f2;
+    font-size: 3.3rem;
+    font-family: 'Monoton', cursive;;
+}
 .navbar input{
     width:40rem;
-    height: 1.7rem;
+    height: 2rem;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    
-    
-    
-    
 }
 
 .navbar li{
-    color:white;
+    color:#f3d0ff;
     padding: 1rem;
     margin-right: 2rem;
 }
