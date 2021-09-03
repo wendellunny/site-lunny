@@ -1,6 +1,6 @@
 import styles from '../../../styles/Home.module.css';
 
-export function AboutHome(){
+export function CodeArea(){
     return(
         <div>
             <p><span>1</span>//Olá Mundo;</p>
@@ -9,7 +9,7 @@ export function AboutHome(){
             <p className={styles.function}><span>5</span> &nbsp; darBomDia</p>
             <p className={styles.if}><span>6</span>{'}else{'}</p>
             <p className={styles.function}><span>7</span> &nbsp; darBoaNoite</p>
-            <p><span>8</span>}</p>
+            <p><span>8</span>{'}'}</p>
 
         </div>
     )
